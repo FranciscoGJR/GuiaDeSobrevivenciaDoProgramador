@@ -6,11 +6,13 @@ Resposta 2: para descompactar todos os arquivos e pastas utilizando o utilitári
 
 ## Seção 2
 
-Resposta 1: *Textos
+Resposta 1: 
+*Textos
 em arquivos
 separados*
 
-Resposta 2: /lib64/ld-linux-x86-64.so.2
+Resposta 2: pode ser utlizado o comando `strings -n 20 ./executavel/*`, que resulta na seguinte saída:
+/lib64/ld-linux-x86-64.so.2
 
 _ITM_deregisterTMCloneTable
 
@@ -38,11 +40,11 @@ __cxa_finalize@GLIBC_2.2.5*
 
 ## Seção 3
 
-Resposta 1: <!-- Sua resposta vem aqui -->
+Resposta 1: foi utilizado o comando `find ./ -name anotacoes_perdidas.txt`, em que foi retornado o diretório *./muitas_pastas/k/w/u/anotacoes_perdidas.txt*, este onde encontra-se o arquivo *.txt* em questão.
 
-Resposta 2: <!-- Sua resposta vem aqui -->
+Resposta 2: para identificar apenas os arquivos maiores que 100k, pode-se utilizar o comando `find ./ -size +100k`, que retornará o diretório *./x/m/v/trabalho_final.java*.
 
-Resposta 3: <!-- Sua resposta vem aqui -->
+Resposta 3: usando o comando `grep --recursive "guia de sobrevivencia do programador" ./`, encontramos a strings em *texto_5.txt* e *texto_2.txt*
 
 ## Seção 4
 
