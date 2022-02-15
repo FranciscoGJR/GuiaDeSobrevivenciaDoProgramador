@@ -45,11 +45,3 @@ Resposta 1: foi utilizado o comando `find ./ -name anotacoes_perdidas.txt`, em q
 Resposta 2: para identificar apenas os arquivos maiores que 100k, pode-se utilizar o comando `find ./ -size +100k`, que retornará o diretório *./x/m/v/trabalho_final.java*.
 
 Resposta 3: usando o comando `grep --recursive "guia de sobrevivencia do programador" ./`, encontramos a strings em *texto_5.txt* e *texto_2.txt*
-
-## Seção 4
-
-Resposta 1: <!-- Sua resposta vem aqui -->
-
-Resposta 2: <!-- Sua resposta vem aqui -->
-
-Resposta 3: <!-- Sua resposta vem aqui -->
