@@ -1,0 +1,53 @@
+# 5 - Git e Github
+
+## Comandos para interagir com repositórios remotos
+
+---
+
+- Criar repositório em algum diretório da máquina
+
+```bash
+git init
+```
+
+- Verificar status do git
+
+```bash
+git status
+```
+
+- Adicionar modificações em *Staging Area*
+
+```bash
+git add 'arquivo'          # adiciona um arquivo especifico
+git add .                  # adiciona todos os arquivos modificados
+```
+
+- Comitar
+
+```bash
+git commit -m "Comentário do commit"
+git commit -a -m "Comentário do commit"
+```
+
+> A flag `-m` adiciona um comentário; a flag `-a` é equivalente ao comando `git add`
+> 
+- Verificar commits feitos
+
+```bash
+gti log
+```
+
+- Identificar todas as modificações detalhadas que foram realizadas no commit
+
+```bash
+git show                             # ira referenciar o ultimo commit
+git show ...id_do_commit...          # ira referenciar o commit do id
+```
+
+- Clonar repositórios para máquina
+
+```bash
+git clone https://github.com/username/reponame.git
+```
+
